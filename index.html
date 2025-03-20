@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+           <img src="Images/logo2.png" alt="" class="logo">
+           <ul>
+             <li><a href="#header">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#services">Services</a></li>
+             <li><a href="#portfolio">Portfolio</a></li>
+             <li><a href="#contact">contact</a></li>
+           </ul>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer / Backend Developer</p>
+          <h1>Hi, I'm <span>Sukhminder Singh</span> <br>From India</h1>
+        </div>
+    </div>
+</div>
+<!----------------------------About Section----------------------------->
+<div id="about">
+  <div class="contain">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="Images/WhatsApp Image 2025-02-21 at 00.09.04.png" alt="">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p class="para">I am a passionate competitive programmer with a deep understanding of algorithms, 
+          data structures, and optimization techniques. My expertise lies in designing efficient 
+          solutions under strict time constraints, ensuring optimal performance and scalability.
+          Competitive programming fuels my passion for coding by presenting challenges that 
+          require critical thinking, logical reasoning, and creativity. It helps me stay updated 
+          with the latest algorithmic techniques and strengthens my ability to write clean, 
+          efficient, and optimized code.Beyond contests, I apply my problem-solving mindset
+           to real-world applications, contributing to open-source projects and working on
+           innovative software solutions.</p>
+           <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+           </div>
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web Developmet</span><br>
+                Designing Web Application / Building new Websites
+              </li>
+              <li><span>Backend Developmet</span><br>
+                Manage data in the Backend with Node.js and Mysql
+              </li>
+              <li><span>Software Developmet</span><br>
+                Maintain the efficiency of code by testing and debbuging code.
+              </li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2025-Current</span><br>
+                Working on Backend Technology Node.Js using <Express class="Js"></Express>  With Mysql 
+              </li>
+              <li><span>2024-2024</span><br>
+                Working on Recipe App Project / Student Attendace Reader <br>
+                Using Fingerprint with HTML,CSS,Bootstrap,Javascript,Jquery,Ajax
+              </li>
+              <li><span>2023-2024</span><br>
+                Working on Problem solving on Leetcode or Codeforces.
+              </li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021-2025</span><br>
+                B.Tech in Computer Science From Chandigarh University
+              </li>
+              <li><span>2019-2020</span><br>
+                Intermediate From High School
+              </li>
+              <li><span>2017-2018</span><br>
+                Matriculation From High School
+              </li>
+            </ul>
+           </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!----------------------------Service Section----------------------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title3">My Services</h1>
+    <div class="services-list">
+       <div class="game">
+        <i class="fa-solid fa-code"></i>
+         <h1 class="outside">Web developer</h1>
+         <p class="inside">Designing user interfaces (UI) using HTML, CSS, and JavaScript.
+          Implementing responsive designs using CSS frameworks like Bootstrap or Tailwind CSS.
+          Enhancing user experience with JavaScript.Ensuring cross-browser compatibility and mobile-friendly designs.
+          Fetching and displaying data from APIs using AJAX or Fetch API.
+          </p>
+          <a href="#">learn more</a>
+       </div>
+       <div class="game">
+        <i class="fa-brands fa-node"></i>
+        <h1 class="outside">Backend developer</h1>
+        <p class="inside">Writing server-side logic with Node.js and Express.js,
+          Creating and managing RESTful APIs or GraphQL APIs.Implementing authentication & authorization (JWT, OAuth).
+          Working with databases like MongoDB,MySQL.Optimizing API responses for speed and scalability.
+         Handling error logging, rate limiting, and caching.
+        </p>
+        <a href="#">learn more</a>
+      </div>
+      <div class="game">
+        <i class="fa-solid fa-crop-simple"></i>
+        <h1 class="outside">Maintenance & Debugging</h1>
+        <p class="inside">Fixing bugs, updating software, and monitoring performance. Using Git, GitHub, and working with teams in Agile environments.
+         </p>
+         <a href="#">learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!----------------------------Portfolio Section----------------------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+          <img src="Images/Recipe-App-Development-1.png" alt="">
+          <div class="layers">
+            <h2>Recipe App Project</h2>
+            <p>The Recipe App is a web-based application that allows users to explore, save, and share their favorite recipes. It provides a user-friendly interface to browse a variety of recipes, view ingredients, and follow step-by-step cooking instructions.</p>
+            <h3>Tech Stack</h3>
+            <p>HTMl,CSS,Bootstrap,Javascript</p>
+            <a href="https://github.com/Singh11coder/Recipe_app_project">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Images/student_attendance_system.png" alt="">
+          <div class="layers">
+            <h2>Student Attendance System Using FingerPrint Reader</h2>
+            <p>A Student Attendance Management System using a Fingerprint Reader is a biometric-based system designed to automate and streamline attendance tracking.</p>
+            <h3>Tech Stack</h3>
+            <p>HTML,CSS,JavaScript,Bootstrap,EJS,Python</p>
+            <a href="https://github.com/Singh11coder/FingerPrintAttendance">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Images/Copy-of-codewithrandom-16.webp" alt="">
+          <div class="layers">
+            <h2>Movie Ticket Pricing System</h2>
+            <p>The Recipe App is a web-based application that allows users to explore, save, and share their favorite recipes. It provides a user-friendly interface to browse a variety of recipes, view ingredients, and follow step-by-step cooking instructions.</p>
+            <h3>Tech Stack</h3>
+            <p>C++,Data structures,File-Handling,OOPs</p>
+            <a href="https://github.com/Singh11coder/Movie-Ticket-Pricing-System">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+    </div>
+    <a href="https://github.com/Singh11coder?tab=repositories" class="btn">See more</a>
+  </div>
+</div>
+<!----------------------------Contact Section----------------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>  sukhmindersingh733@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>   +91 9877393106</p>
+        <div class="social-icons">
+           <a href="https://www.linkedin.com/in/sukhminder-singh-b93b06220/"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="#"><i class="fa-brands fa-telegram"></i></a>
+           <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+        </div>
+        <a href="Images/Sukhminder Singh(Node JS).pdf" download class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right">
+         <form>
+           <input type="text" name="Name" placeholder="Your Name" required>
+           <input type="email" name="email" placeholder="Your mail" required>
+           <textarea  name="message" rows="6"  placeholder="Your Message"></textarea>
+           <button type="submit" class="btn btn2">Submit</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+   var tablinks=document.getElementsByClassName("tab-links");
+   var tabcontents=document.getElementsByClassName("tab-contents");
+   function opentab(tabname)
+   {
+      for(tablink of tablinks)
+      {
+         tablink.classList.remove("active-link");
+         
+      }
+      for(tabcontent of tabcontents)
+      {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+   }
+</script>
+  <script src="index.js"></script>
+</body>
+</html>
